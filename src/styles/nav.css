@@ -6,9 +6,10 @@
     justify-content: center;
     align-items: center;
     border-bottom: rgb(57, 54, 54);
+    background-color: #fff;
 }
 
-.navlinks{
+.navLinks{
     color: rgb(59, 59, 59);
     text-decoration: none;
     margin: 1vmax 1.2vmax;
