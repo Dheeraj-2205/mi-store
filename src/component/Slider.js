@@ -1,15 +1,13 @@
-import Carousel from 'react-bootstrap/Carousel';
 import React from 'react'
+import Carousel from 'react-bootstrap/Carousel';
 
 const Slider = () => {
   return (
     <Carousel>
         <Carousel.Item>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0i6Jjb_pMB3FBgL5XDr4z3H14afBtr-Befg&usqp=CAU" alt="" />
-        <Carousel.Caption>
-            <h3>Making the Slider of mi website</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
-        </Carousel.Caption>
+        <img src="https://i03.appmifile.com/43_operator_in/24/03/2023/7d08887e241c3352200fc2bfbc843f95.jpg?f=webp"
+            alt="" 
+        />
         </Carousel.Item>
     </Carousel>
   )
