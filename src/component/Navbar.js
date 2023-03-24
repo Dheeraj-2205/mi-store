@@ -41,6 +41,7 @@ const Navbar = () => {
       </g>
     </svg>
   );
+
   return (
     <div className="nav">
       <div className="logo">
