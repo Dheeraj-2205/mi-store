@@ -15,7 +15,7 @@ const PreNavbar = () => {
     <div className="preNav">
       <div>
         <a href="">MI INDIA</a> <span>|</span>
-        <a href="">GET MIT STORE</a> <span>|</span>
+        <a href="">GET MI STORE</a> <span>|</span>
         <a href="">ONLINE</a> <span>|</span>
         <a href="">RETAIL STORE</a> 
       </div>

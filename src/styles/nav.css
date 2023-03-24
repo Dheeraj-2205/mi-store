@@ -40,9 +40,13 @@
     font-weight: 500;
     font-size: 1.1vmax;
 }
-.logo{
-    width: .5vmax;
-    height: 0.5vmax;
+.navLinks:hover{
+    text-decoration: none;
+    color: orangered;
+}
+.logo img{
+    width: 5.5vmax;
+    height: 5.5vmax;
 }
 .searchbox{
     position: relative;
@@ -55,4 +59,12 @@
     font-size: 1.1vmax;
     outline: none;
     color: rgb(61, 61, 61);
+    font-weight: 100;
+}
+.searchbox > svg{
+    fill: rgb(89, 88, 88);
+}
+input[type=text]{
+    margin-bottom: 20px;
+
 }
