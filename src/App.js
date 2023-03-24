@@ -9,6 +9,7 @@ function App() {
     <Router>
       <PreNavbar />
       <Navbar />
+      <Slider/>
     </Router>
   );
 }
