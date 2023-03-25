@@ -72,6 +72,9 @@ input[type=text]{
 .sliderimage{
     width: 100%;
 }
-.carousel-control-prev span{
+.carousel-control-prev > span{
+    color: black;
+}
+.carousel-control-prev-icon{
     color: black;
 }

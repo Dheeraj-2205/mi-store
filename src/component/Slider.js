@@ -11,6 +11,7 @@ const Slider = ({start}) => {
               <Carousel.Item>
               <>
                 <img
+                key = {i+1}
                 className='sliderimage'
                  src={ele}
                  alt="" 
