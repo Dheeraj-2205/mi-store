@@ -78,3 +78,6 @@ input[type=text]{
 .carousel-control-prev-icon{
     color: black;
 }
+.carousel-control-prev-icon{
+    fill: black;
+}
