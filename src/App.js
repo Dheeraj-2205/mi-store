@@ -6,6 +6,7 @@ import "../src/styles/PreNavbar.css";
 import Slider from "./component/Slider.js"
 import Offers from "./component/Offers.js"
 import data from "./data/banner.json"
+import Heading from "./component/Heading.js"
 function App() {
   console.log(data.offer.offers);
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Slider start = {data.banner.start}/>
       <Offers offer = {data.offer.offers}/>
+      <Heading star = "Star Products"/>
     </Router>
   );
 }

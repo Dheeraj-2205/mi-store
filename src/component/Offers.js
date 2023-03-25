@@ -8,7 +8,9 @@ const Offers = ({offer}) => {
         <div className="offersSection">
             {
                 offer.map((ele,i)=>{
-                    return <Offer key = {i + 1} src = {ele.image}/>
+                    return (
+                        <Offer key = {i + 1} src = {ele.image}/>
+                    )
                 })
             }
 
