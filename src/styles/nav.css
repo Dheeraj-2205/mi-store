@@ -68,3 +68,10 @@ input[type=text]{
     margin-bottom: 20px;
 
 }
+
+.sliderimage{
+    width: 100%;
+}
+.carousel-control-prev span{
+    color: black;
+}
