@@ -9,7 +9,7 @@ import data from "./data/banner.json"
 import Heading from "./component/Heading.js"
 import StarProduct from "./component/StarProduct.js"
 function App() {
-  console.log(data.offer.offers);
+  console.log(data.starProduct.stars);
   return (
     <Router>
       <PreNavbar />
@@ -17,7 +17,7 @@ function App() {
       <Slider start = {data.banner.start}/>
       <Offers offer = {data.offer.offers}/>
       <Heading text = "Star Products"/>
-      <StarProduct/>
+      <StarProduct starProduct = {data.starProduct.stars}/>
     </Router>
   );
 }
