@@ -13,5 +13,14 @@
             {"image" : "https://i03.appmifile.com/766_operator_in/21/03/2023/47ea9acde7cecd5c8d94c76db00cad65.jpg?f=webp"},
             {"image" : "https://i03.appmifile.com/261_operator_in/23/03/2023/29e1173d22f922981f8cea3c084509db.jpg?f=webp"}
         ]
+    },
+    "starProduct" : {
+        "stars" : [
+            {"image" : "https://i02.appmifile.com/145_operator_jp/01/03/2023/c70a29537fabd9f42b073414fa838a4e.png?f=webp"},
+            {"image" : "https://i02.appmifile.com/405_operator_jp/15/03/2023/eb51e395132f9e73d1e0885d95a63143.png?f=webp"},
+            {"image" : ""}
+            
+
+        ]
     }
 }
