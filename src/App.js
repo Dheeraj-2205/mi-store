@@ -9,7 +9,6 @@ import data from "./data/banner.json"
 import Heading from "./component/Heading.js"
 import StarProduct from "./component/StarProduct.js"
 function App() {
-  console.log(data.starProduct.stars);
   return (
     <Router>
       <PreNavbar />

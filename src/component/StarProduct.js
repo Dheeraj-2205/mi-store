@@ -1,21 +1,14 @@
 import React from 'react'
 import "../styles/StarProduct.css"
-const StarProduct = () => {
+const StarProduct = ({starProduct}) => {
   return (
     <div className="starProduct">
         <div>
-            <a href=""><img src="" alt="" /></a>
+            <img src= {starProduct[0].image} alt="" />
         </div>
         <div>
-            <a href="">
-                <img src="" alt="" />
-            </a>
-            <a href="">
-                <img src="" alt="" />
-            </a>
-            <a href="">
-                <img src="" alt="" />
-            </a>
+            <img src={starProduct[1].image} alt="" />
+            <img src={starProduct[2].image} alt="" />
         </div>
     </div>
   )
