@@ -8,6 +8,7 @@
     margin: 0 1vmax;
     width: 97%;
     transition : 1.5s ;
+    height: 30vmax;
 }
 .offersSection img:hover{
     box-shadow: 6px 6px 15px rgba(53, 53, 0, 0.36);
