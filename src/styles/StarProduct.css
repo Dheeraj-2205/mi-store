@@ -3,6 +3,11 @@
     justify-content: center;
     align-items: center;
     margin: 1vmax auto;
+    
+}
+.starProduct img{
+    width: 50%;
+    height: 30vmax;
 }
 .starProduct>div:last-child{
     display: flex;
