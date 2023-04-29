@@ -4,12 +4,12 @@ const StarProduct = ({starProduct}) => {
   return (
     <div className="starProduct">
         <div>
-            <img src= {starProduct[0].image} alt="" />
+            <img src= {starProduct[0].image} className = "image-1" alt="" />
         </div>
         <div>
-            <img src={starProduct[1].image} alt="" />
-            <img src={starProduct[2].image} alt="" />
-            <img src={starProduct[3].image} alt="" />
+            <img src={starProduct[1].image} className = "image-2" alt="" />
+            <img src={starProduct[2].image} className = "image-2" alt="" />
+            <img src={starProduct[3].image} className = "image-2" alt="" />
         </div>
     </div>
   )

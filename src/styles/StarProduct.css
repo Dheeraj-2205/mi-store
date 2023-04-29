@@ -5,9 +5,16 @@
     margin: 1vmax auto;
     
 }
-.starProduct img{
-    width: 50%;
-    height: 30vmax;
+.starProduct div :first-child{
+    background-color: red;
+    width: 20%;
+    height: 20vmax;
+    margin: 100%
+}
+.image-1{
+    width: 20%;
+    height: 15vmax;
+    margin: 85vmax;
 }
 .starProduct>div:last-child{
     display: flex;
